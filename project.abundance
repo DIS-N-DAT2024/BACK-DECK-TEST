@@ -20,13 +20,55 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.27358490566037735,
-            "y": 0.8117283950617283,
+            "x": 0.0699685534591195,
+            "y": 0.26851851851851855,
             "uniqueID": 1745714669875,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
             "fileName": "lsx super5.stl",
             "type": "STL",
+            "SVGwidth": 10
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.10849056603773585,
+            "y": 0.5524691358024691,
+            "uniqueID": 1745714810088,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": "true"
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.1918238993710692,
+            "y": 0.4537037037037038,
+            "uniqueID": 1745714856839,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "snow chevy-impala-backdeck-SVG.svg",
+            "type": "SVG",
             "SVGwidth": 10
         }
     ],
